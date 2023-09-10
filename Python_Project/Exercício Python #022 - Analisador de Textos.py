@@ -1,0 +1,6 @@
+nome = input('Informe seu nome completo: ')
+print(nome.upper())
+print(nome.lower())
+print(f'O nome tem {len("".join(nome.split()))} letras')
+n= nome.split()
+print(f'O primeiro nome é {n[0]} e tem {len(n[0])} letras')

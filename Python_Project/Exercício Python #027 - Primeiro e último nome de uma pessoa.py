@@ -1,0 +1,5 @@
+f = input('Insira seu nome completo: ').strip()
+k= f.split()
+print(f'Seu nome completo é {f}')
+print(f'seu primeiro nome é {k[0]}')
+print(f'E o ultimo em {k[-1]}')
